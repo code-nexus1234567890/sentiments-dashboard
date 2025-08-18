@@ -1,6 +1,0 @@
-streamlit
-pandas
-matplotlib
-vaderSentiment
-passlib[bcrypt]
-snscrape
