@@ -323,3 +323,13 @@ else:
         st.experimental_rerun()
     else:
         screen_dashboard()
+
+
+import os
+from pymongo import MongoClient
+
+# Get MongoDB URI from environment variable (safer for Streamlit Cloud)
+MONGO_URI = os.getenv("MONGO_URI")
+client = MongoClient(MONGO_URI)
+db = client["myDatabase"]
+collection = db["myCollection"]
