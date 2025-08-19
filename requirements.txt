@@ -4,3 +4,4 @@ matplotlib
 vaderSentiment
 passlib[bcrypt]
 snscrape
+pymongo
