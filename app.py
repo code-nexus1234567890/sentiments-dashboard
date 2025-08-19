@@ -7,7 +7,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 from passlib.hash import bcrypt
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
-from pymongo import MongoClient
+# from pymongo import MongoClient
 
 # ---------- Optional BERT (only if you add transformers + torch to requirements) ----------
 BERT_AVAILABLE = False
